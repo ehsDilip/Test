@@ -1,0 +1,36 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://fedex.com/ws/close/v3">
+   <SOAP-ENV:Body>
+      <ReprintGroundCloseDocumentsRequest>
+         <WebAuthenticationDetail>
+            <UserCredential>
+               <Key>Input Your Information</Key>
+               <Password>Input Your Information</Password>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input Your Information</AccountNumber>
+            <MeterNumber>Input Your Information</MeterNumber>
+            <IntegratorId>String</IntegratorId>
+            <Localization>
+               <LanguageCode>EN</LanguageCode>
+               <LocaleCode>EN</LocaleCode>
+            </Localization>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>ReprintGroundCloseDocumentsRequest_v3</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>clos</ServiceId>
+            <Major>3</Major>
+            <Intermediate>1</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <ReprintOption>BY_SHIP_DATE</ReprintOption>
+         <CloseDate>2014-06-18</CloseDate>
+         <TrackingNumber>string</TrackingNumber>
+         <CloseDocumentSpecification>
+            <CloseDocumentTypes>MANIFEST</CloseDocumentTypes>
+         </CloseDocumentSpecification>
+      </ReprintGroundCloseDocumentsRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

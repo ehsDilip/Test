@@ -1,0 +1,51 @@
+"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:v7=""http://fedex.com/ws/openship/v7"">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+       <v7:ConfirmConsolidationRequest>
+       <v7:WebAuthenticationDetail>
+            <v7:UserCredential>
+               <v7:Key>Input Your Information</v7:Key>
+               <v7:Password>Input Your Information</v7:Password>
+            </v7:UserCredential>
+         </v7:WebAuthenticationDetail>
+         <v7:ClientDetail>
+            <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+            <v7:MeterNumber>Input Your Information</v7:MeterNumber>
+            <v7:IntegratorId>123</v7:IntegratorId>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:ClientDetail>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>ConfirmConsolidationRequest_v7</v7:CustomerTransactionId>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>ship</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+         <v7:AsynchronousProcessingOptions>
+            <v7:Options>ALLOW_ASYNCHRONOUS</v7:Options>
+         </v7:AsynchronousProcessingOptions>
+          <v7:ConsolidationKey>
+            <v7:Type>INTERNATIONAL_PRIORITY_DISTRIBUTION</v7:Type>
+            <v7:Index>Input Your Information</v7:Index>
+            <v7:Date>2014-05-26</v7:Date>
+         </v7:ConsolidationKey>
+         <v7:LabelSpecification>
+            <v7:LabelFormatType>COMMON2D</v7:LabelFormatType>
+            <v7:ImageType>PNG</v7:ImageType>
+            <v7:LabelStockType>PAPER_4X6</v7:LabelStockType>
+            <v7:LabelPrintingOrientation>TOP_EDGE_OF_TEXT_FIRST</v7:LabelPrintingOrientation>
+         </v7:LabelSpecification>
+         <v7:RateRequestTypes>LIST</v7:RateRequestTypes>
+         <v7:EdtRequestType>ALL</v7:EdtRequestType>
+      </v7:ConfirmConsolidationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>"

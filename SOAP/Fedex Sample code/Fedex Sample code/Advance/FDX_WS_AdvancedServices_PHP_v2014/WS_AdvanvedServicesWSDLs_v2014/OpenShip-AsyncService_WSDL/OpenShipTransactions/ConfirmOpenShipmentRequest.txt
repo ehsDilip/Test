@@ -1,0 +1,45 @@
+"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:v7=""http://fedex.com/ws/openship/v7"">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v7:ConfirmOpenShipmentRequest>
+         <v7:WebAuthenticationDetail>
+            <v7:UserCredential>
+               <v7:Key>Input Your Information</v7:Key>
+               <v7:Password>Input Your Information</v7:Password>
+            </v7:UserCredential>
+         </v7:WebAuthenticationDetail>
+         <v7:ClientDetail>
+            <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+            <v7:MeterNumber>Input Your Information</v7:MeterNumber>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:ClientDetail>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>ConfirmOpenShipmentRequest_v7</v7:CustomerTransactionId>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>ship</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+         <v7:Index>Input Your Information</v7:Index>
+         <v7:LabelSpecification>
+            <v7:Dispositions>
+               <v7:DispositionType>STORED</v7:DispositionType>
+            </v7:Dispositions>
+            <v7:LabelFormatType>COMMON2D</v7:LabelFormatType>
+            <v7:ImageType>PNG</v7:ImageType>
+            <v7:LabelStockType>PAPER_4X6</v7:LabelStockType>
+            <v7:LabelPrintingOrientation>TOP_EDGE_OF_TEXT_FIRST</v7:LabelPrintingOrientation>
+         </v7:LabelSpecification>
+         <v7:RateRequestTypes>LIST</v7:RateRequestTypes>
+      </v7:ConfirmOpenShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>"

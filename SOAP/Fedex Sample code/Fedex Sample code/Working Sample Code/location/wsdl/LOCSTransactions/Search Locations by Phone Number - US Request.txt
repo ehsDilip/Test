@@ -1,0 +1,50 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"xmlns:v1="http://fedex.com/ws/locs/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+     <v1:SearchLocationsRequest>
+         <v1:WebAuthenticationDetail>
+            <v1:UserCredential>
+               <v1:Key>Input Your Information</v1:Key>
+               <v1:Password>Input Your Information</v1:Password>
+           </v1:UserCredential>
+         </v1:WebAuthenticationDetail>
+         <v1:ClientDetail>
+            <v1:AccountNumber>Input Your Information</v1:AccountNumber>
+            <v1:MeterNumber>Input Your Information</v1:MeterNumber>
+            <v1:Region>US</v1:Region>
+         </v1:ClientDetail>
+         <v1:Version>
+            <v1:ServiceId>locs</v1:ServiceId>
+            <v1:Major>1</v1:Major>
+            <v1:Intermediate>0</v1:Intermediate>
+            <v1:Minor>0</v1:Minor>
+         </v1:Version>
+         <v1:EffectiveDate>2014-06-02</v1:EffectiveDate>
+         <v1:LocationsSearchCriterion>PHONE_NUMBER</v1:LocationsSearchCriterion>
+         <v1:Address>
+            <v1:StreetLines>Input Your Information</v1:StreetLines>
+            <v1:City>Memphis</v1:City>
+            <v1:StateOrProvinceCode>TN</v1:StateOrProvinceCode>
+            <v1:PostalCode>38118</v1:PostalCode>
+            <v1:UrbanizationCode/>
+            <v1:CountryCode>US</v1:CountryCode>
+            <v1:Residential>0</v1:Residential>
+         </v1:Address>
+         <v1:PhoneNumber>Input Your Information</v1:PhoneNumber>
+         <v1:GeographicCoordinates/>
+         <v1:MultipleMatchesAction>RETURN_ALL</v1:MultipleMatchesAction>
+         <v1:SortDetail>
+            <v1:Criterion>DISTANCE</v1:Criterion>
+            <v1:Order>LOWEST_TO_HIGHEST</v1:Order>
+         </v1:SortDetail>
+         <v1:Constraints>
+            <v1:RadiusDistance>
+               <v1:Value>20.0</v1:Value>
+               <v1:Units>MI</v1:Units>
+            </v1:RadiusDistance>
+            <v1:LocationContentOptions>HOLIDAYS</v1:LocationContentOptions>
+            <v1:LocationTypesToInclude>FEDEX_OFFICE</v1:LocationTypesToInclude>
+         </v1:Constraints>
+      </v1:SearchLocationsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

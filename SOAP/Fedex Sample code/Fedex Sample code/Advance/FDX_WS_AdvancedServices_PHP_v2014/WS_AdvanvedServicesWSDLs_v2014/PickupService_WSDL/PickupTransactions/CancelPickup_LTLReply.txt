@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+   <soapenv:Body>
+      <v9:CancelPickupReply xmlns:v9="http://fedex.com/ws/pickup/v9">
+         <v9:HighestSeverity xmlns:java="java:com.fedex.nxgen.disp.v12.ientities" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SUCCESS</v9:HighestSeverity>
+         <v9:Notifications xmlns:java="java:com.fedex.nxgen.disp.v12.ientities" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <v9:Severity>SUCCESS</v9:Severity>
+            <v9:Source>disp</v9:Source>
+            <v9:Code>0000</v9:Code>
+            <v9:Message>Success</v9:Message>
+            <v9:LocalizedMessage>Success</v9:LocalizedMessage>
+         </v9:Notifications>
+         <v9:TransactionDetail xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <v9:CustomerTransactionId>v9 CancelPickup Feight</v9:CustomerTransactionId>
+            <v9:Localization>
+               <v9:LanguageCode>EN</v9:LanguageCode>
+               <v9:LocaleCode>EN</v9:LocaleCode>
+            </v9:Localization>
+         </v9:TransactionDetail>
+         <v9:Version xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <v9:ServiceId>disp</v9:ServiceId>
+            <v9:Major>9</v9:Major>
+            <v9:Intermediate>0</v9:Intermediate>
+            <v9:Minor>0</v9:Minor>
+         </v9:Version>
+      </v9:CancelPickupReply>
+   </soapenv:Body>
+</soapenv:Envelope>

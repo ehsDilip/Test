@@ -1,0 +1,80 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v9="http://fedex.com/ws/pickup/v9">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v9:CreatePickupRequest>
+         <v9:WebAuthenticationDetail>
+        <v9:UserCredential>
+               <v9:Key>Input Your Information</v9:Key>
+               <v9:Password>Input Your Information</v9:Password>
+            </v9:UserCredential>
+         </v9:WebAuthenticationDetail>
+         <v9:ClientDetail>
+            <v9:AccountNumber>Input Your Information</v9:AccountNumber>
+            <v9:MeterNumber>Input Your Information</v9:MeterNumber>
+            <v9:IntegratorId>12345</v9:IntegratorId>
+            <v9:Localization>
+               <v9:LanguageCode>EN</v9:LanguageCode>
+               <v9:LocaleCode>EN</v9:LocaleCode>
+            </v9:Localization>
+         </v9:ClientDetail>
+         <v9:TransactionDetail>
+            <v9:CustomerTransactionId>CreatePickupRequest_v9</v9:CustomerTransactionId>
+            <v9:Localization>
+               <v9:LanguageCode>EN</v9:LanguageCode>
+               <v9:LocaleCode>EN</v9:LocaleCode>
+            </v9:Localization>
+         </v9:TransactionDetail>
+         <v9:Version>
+            <v9:ServiceId>disp</v9:ServiceId>
+            <v9:Major>9</v9:Major>
+            <v9:Intermediate>0</v9:Intermediate>
+            <v9:Minor>0</v9:Minor>
+         </v9:Version>
+         <v9:AssociatedAccountNumber>
+            <v9:Type>FEDEX_EXPRESS</v9:Type>
+            <v9:AccountNumber>Input Your Information</v9:AccountNumber>
+         </v9:AssociatedAccountNumber>
+         <v9:OriginDetail>
+            <v9:PickupLocation>
+               <v9:Contact>
+                  <v9:ContactId>Input Your Information</v9:ContactId>
+                  <v9:PersonName>Input Your Information</v9:PersonName>
+                  <v9:Title>Input Your Information</v9:Title>
+                  <v9:CompanyName>Input Your Information</v9:CompanyName>
+                  <v9:PhoneNumber>Input Your Information</v9:PhoneNumber>
+                  <v9:PhoneExtension>Input Your Information</v9:PhoneExtension>
+                  <v9:PagerNumber>Input Your Information</v9:PagerNumber>
+                  <v9:FaxNumber>Input Your Information</v9:FaxNumber>
+                  <v9:EMailAddress>Input Your Information</v9:EMailAddress>
+               </v9:Contact>
+               <v9:Address>
+                  <v9:StreetLines>Input Your Information</v9:StreetLines>
+                  <v9:StreetLines>Input Your Information</v9:StreetLines>
+                  <v9:StreetLines>Input Your Information</v9:StreetLines>
+                  <v9:City>Input Your Information</v9:City>
+                  <v9:StateOrProvinceCode>Input Your Information</v9:StateOrProvinceCode>
+                  <v9:PostalCode>Input Your Information</v9:PostalCode>
+                  <v9:CountryCode>Input Your Information</v9:CountryCode>
+               </v9:Address>
+            </v9:PickupLocation>
+            <v9:PackageLocation>FRONT</v9:PackageLocation>
+            <v9:BuildingPart>DEPARTMENT</v9:BuildingPart>
+            <v9:BuildingPartDescription>BuildingPartDescription</v9:BuildingPartDescription>
+            <v9:ReadyTimestamp>2014-05-23T11:00:00-06:00</v9:ReadyTimestamp>
+            <v9:CompanyCloseTime>19:00:00</v9:CompanyCloseTime>
+            <v9:Location>NQAA</v9:Location>
+            <v9:SuppliesRequested>SuppliesRequested</v9:SuppliesRequested>
+         </v9:OriginDetail>
+         <v9:PackageCount>1</v9:PackageCount>
+         <v9:TotalWeight>
+            <v9:Units>LB</v9:Units>
+            <v9:Value>50.0</v9:Value>
+         </v9:TotalWeight>
+         <v9:CarrierCode>FDXE</v9:CarrierCode>
+         <v9:OversizePackageCount>0</v9:OversizePackageCount>
+         <v9:Remarks>Remarks</v9:Remarks>
+         <v9:CommodityDescription>TEST ENVIRONMENT - PLEASE DO NOT PROCESS PICKUP</v9:CommodityDescription>
+         <v9:CountryRelationship>DOMESTIC</v9:CountryRelationship>
+      </v9:CreatePickupRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

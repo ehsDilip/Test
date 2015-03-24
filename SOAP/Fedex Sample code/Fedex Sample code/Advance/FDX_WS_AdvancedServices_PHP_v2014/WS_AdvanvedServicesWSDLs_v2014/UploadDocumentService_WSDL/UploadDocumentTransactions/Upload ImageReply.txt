@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><v7:UploadImagesReply xmlns:v7="http://fedex.com/ws/uploaddocument/v7"><v7:HighestSeverity>SUCCESS</v7:HighestSeverity><v7:Notifications><v7:Severity>SUCCESS</v7:Severity><v7:Source>cdus</v7:Source><v7:Code>0</v7:Code><v7:Message>CDUS service success</v7:Message></v7:Notifications><v7:TransactionDetail>
+            <v7:CustomerTransactionId>UploadImagesRequest_v7</v7:CustomerTransactionId>
+         </v7:TransactionDetail><v7:Version>
+            <v7:ServiceId>cdus</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version><v7:ImageStatuses><v7:Id>IMAGE_1</v7:Id><v7:Status>SUCCESS</v7:Status></v7:ImageStatuses></v7:UploadImagesReply></env:Body></soapenv:Envelope>

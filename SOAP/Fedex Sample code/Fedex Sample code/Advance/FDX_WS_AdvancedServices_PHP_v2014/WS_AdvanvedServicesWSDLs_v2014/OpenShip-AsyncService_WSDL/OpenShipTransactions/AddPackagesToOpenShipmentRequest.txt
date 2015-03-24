@@ -1,0 +1,58 @@
+"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:v7=""http://fedex.com/ws/openship/v7"">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v7:AddPackagesToOpenShipmentRequest>
+         <v7:WebAuthenticationDetail>
+            <v7:UserCredential>
+               <v7:Key>Input Your Information</v7:Key>
+               <v7:Password>Input Your Information</v7:Password>
+            </v7:UserCredential>
+         </v7:WebAuthenticationDetail>
+         <v7:ClientDetail>
+            <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+            <v7:MeterNumber>Input Your Information</v7:MeterNumber>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:ClientDetail>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>AddPackagesToOpenShipmentRequest_v7</v7:CustomerTransactionId>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>ship</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+         <v7:Index>Input Your Information</v7:Index>
+         <v7:RequestedPackageLineItems>
+            <v7:SequenceNumber>1</v7:SequenceNumber>
+            <v7:GroupNumber>1</v7:GroupNumber>
+            <v7:GroupPackageCount>1</v7:GroupPackageCount>
+            <v7:Weight>
+               <v7:Units>LB</v7:Units>
+               <v7:Value>20.22</v7:Value>
+            </v7:Weight>
+            <v7:Dimensions>
+               <v7:Length>11</v7:Length>
+               <v7:Width>11</v7:Width>
+               <v7:Height>11</v7:Height>
+               <v7:Units>IN</v7:Units>
+            </v7:Dimensions>
+            <v7:PhysicalPackaging>BAG</v7:PhysicalPackaging>
+            <v7:ItemDescription>It is Simple Package.</v7:ItemDescription>
+            <v7:ContentRecords>
+               <v7:PartNumber>1</v7:PartNumber>
+               <v7:ItemNumber>1</v7:ItemNumber>
+               <v7:ReceivedQuantity>1</v7:ReceivedQuantity>
+               <v7:Description>It is Simple Package.</v7:Description>
+            </v7:ContentRecords>
+         </v7:RequestedPackageLineItems>
+      </v7:AddPackagesToOpenShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>"

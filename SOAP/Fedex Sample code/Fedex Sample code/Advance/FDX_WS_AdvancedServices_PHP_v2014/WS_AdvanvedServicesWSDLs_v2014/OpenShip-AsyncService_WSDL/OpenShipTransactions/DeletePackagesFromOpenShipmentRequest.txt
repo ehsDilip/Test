@@ -1,0 +1,40 @@
+"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:v7=""http://fedex.com/ws/openship/v7"">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v7:DeletePackagesFromOpenShipmentRequest>
+         <v7:WebAuthenticationDetail>
+            <v7:UserCredential>
+               <v7:Key>Input Your Information</v7:Key>
+               <v7:Password>Input Your Information</v7:Password>
+            </v7:UserCredential>
+         </v7:WebAuthenticationDetail>
+         <v7:ClientDetail>
+            <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+            <v7:MeterNumber>Input Your Information</v7:MeterNumber>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:ClientDetail>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>DeletePackagesFromOpenShipmentRequest_v7</v7:CustomerTransactionId>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>ship</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+         <v7:Index>Input Your Information</v7:Index>
+         <v7:TrackingIds>
+            <v7:TrackingIdType>EXPRESS</v7:TrackingIdType>
+            <v7:FormId>0441</v7:FormId>
+            <v7:TrackingNumber>Input Your Information</v7:TrackingNumber>
+         </v7:TrackingIds>
+      </v7:DeletePackagesFromOpenShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>"

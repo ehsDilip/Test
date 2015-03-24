@@ -1,0 +1,52 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://fedex.com/ws/pickup/v9">
+   <SOAP-ENV:Body>
+      <CancelPickupRequest>
+         <WebAuthenticationDetail>
+            <UserCredential>
+               <Key>Input Your Information</Key>
+               <Password>Input Your Information</Password>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input Your Information</AccountNumber>
+            <MeterNumber>Input Your Information</MeterNumber>
+            <Localization>
+               <LanguageCode>EN</LanguageCode>
+               <LocaleCode>EN</LocaleCode>
+            </Localization>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>v9 CancelPickup Feight</CustomerTransactionId>
+            <Localization>
+               <LanguageCode>EN</LanguageCode>
+               <LocaleCode>EN</LocaleCode>
+            </Localization>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>disp</ServiceId>
+            <Major>9</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <CarrierCode>FXFR</CarrierCode>
+         <PickupConfirmationNumber>Input Your Information</PickupConfirmationNumber>
+         <ScheduledDate>Input Your Information</ScheduledDate>
+         <Location>Input Your Information</Location>
+         <Remarks>Preet</Remarks>
+         <ShippingChargesPayment>
+            <PaymentType>CASH</PaymentType>
+            <Payor>
+               <ResponsibleParty>
+                  <AccountNumber>Input Your Information</AccountNumber>
+               </ResponsibleParty>
+            </Payor>
+            <Amount>
+               <Currency>USD</Currency>
+               <Amount>3.00</Amount>
+            </Amount>
+         </ShippingChargesPayment>
+         <Reason>TXT</Reason>
+         <ContactName>Input Your Information</ContactName>
+      </CancelPickupRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

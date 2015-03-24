@@ -1,0 +1,47 @@
+Ajax Based Pagination.
+Developed by Reneesh T.K
+reneeshtk@gmail.com
+It is free for you!!!!
+It will display the out put like:
+
+First | Previous | 3 | 4 | 5 | 6 | 7| 8 | 9 | 10 | Next | Last
+Page : 7  Of  10 . Total Records Found: 20
+
+Just pass the query ,records per page and starting from the page you want to display the pagination.
+
+Advantage: It is connected to search process in the example and you may extend this feature as you like. It have a good style also.
+
+For testing: Just create a sample table:
+-- Table structure for table `students`
+
+CREATE TABLE `students` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(50) NOT NULL default '',
+  PRIMARY KEY  (`id`)
+);
+
+INSERT INTO `students` VALUES (1, 'Reneesh');
+INSERT INTO `students` VALUES (2, 'Aniesh');
+INSERT INTO `students` VALUES (3, 'Babu');
+INSERT INTO `students` VALUES (4, 'Antony');
+INSERT INTO `students` VALUES (5, 'Praveesh');
+INSERT INTO `students` VALUES (6, 'Dixon');
+INSERT INTO `students` VALUES (7, 'Sanju');
+INSERT INTO `students` VALUES (8, 'Neeraj');
+INSERT INTO `students` VALUES (9, 'Siju');
+INSERT INTO `students` VALUES (10, 'Noble');
+INSERT INTO `students` VALUES (11, 'Bibin');
+INSERT INTO `students` VALUES (12, 'Febin');
+INSERT INTO `students` VALUES (13, 'Binu');
+INSERT INTO `students` VALUES (14, 'Charles');
+INSERT INTO `students` VALUES (15, 'jaggu');
+INSERT INTO `students` VALUES (16, 'mani');
+INSERT INTO `students` VALUES (17, 'milu');
+INSERT INTO `students` VALUES (18, 'aravind');
+INSERT INTO `students` VALUES (19, 'jay');
+INSERT INTO `students` VALUES (20, 'hari');
+
+Change the mysql connection settings in testpage.php and in test_sub.php page.
+
+You can see some useful functions in the site http://reneeshtk.000a.biz and if you interested you can donate some amount to me :)
+

@@ -1,0 +1,51 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v3="http://fedex.com/ws/addressvalidation/v3">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v3:AddressValidationRequest>
+         <v3:WebAuthenticationDetail>
+            <v3:UserCredential>
+               <v3:Key>Input Your Information</v3:Key>
+               <v3:Password>Input Your Information</v3:Password>
+            </v3:UserCredential>
+         </v3:WebAuthenticationDetail>
+         <v3:ClientDetail>
+            <v3:AccountNumber>Input Your Information</v3:AccountNumber>
+            <v3:MeterNumber>Input Your Information</v3:MeterNumber>
+            <v3:Localization>
+               <v3:LanguageCode>EN</v3:LanguageCode>
+               <v3:LocaleCode>us</v3:LocaleCode>
+            </v3:Localization>
+         </v3:ClientDetail>
+         <v3:TransactionDetail>
+            <v3:CustomerTransactionId>AddressValidationRequest_v3</v3:CustomerTransactionId>
+            <v3:Localization>
+               <v3:LanguageCode>EN</v3:LanguageCode>
+               <v3:LocaleCode>us</v3:LocaleCode>
+            </v3:Localization>
+         </v3:TransactionDetail>
+         <v3:Version>
+            <v3:ServiceId>aval</v3:ServiceId>
+            <v3:Major>3</v3:Major>
+            <v3:Intermediate>0</v3:Intermediate>
+            <v3:Minor>0</v3:Minor>
+         </v3:Version>
+         <v3:InEffectAsOfTimestamp>2014-05-02T10:00:00</v3:InEffectAsOfTimestamp>
+         <v3:AddressesToValidate>
+            <v3:ClientReferenceId>Input Your Information</v3:ClientReferenceId>
+            <v3:Contact>
+               <v3:CompanyName>Input Your Information</v3:CompanyName>
+               <v3:PhoneNumber>Input Your Information</v3:PhoneNumber>
+            </v3:Contact>
+            <v3:Address>
+               <v3:StreetLines>Input Your Information</v3:StreetLines>
+               <v3:City>MISSISSIAGUA</v3:City>
+               <v3:StateOrProvinceCode>ON</v3:StateOrProvinceCode>
+               <v3:PostalCode>L4W1W8</v3:PostalCode>
+               <v3:CountryCode>CA</v3:CountryCode>
+               <v3:CountryName>CANADA</v3:CountryName>
+               <v3:Residential>0</v3:Residential>
+            </v3:Address>
+         </v3:AddressesToValidate>
+      </v3:AddressValidationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

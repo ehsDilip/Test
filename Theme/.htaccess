@@ -1,0 +1,47 @@
+Options All -Indexes 
+Options +FollowSymLinks
+RewriteEngine  on
+#RewriteBase /Theme
+
+#header
+RewriteRule ^home$ index.php
+RewriteRule ^portfolio$ portfolio.php
+RewriteRule ^our-services$ our_services.php
+#RewriteRule ^join-us$ join-us.php
+RewriteRule ^contact-us$ contact_us.php
+RewriteRule ^about-us$ about.php
+
+
+#footer
+
+#RewriteRule ^web-developing$ web-developing.php
+#RewriteRule ^web-designing$ web-designing.php
+#RewriteRule ^online-ordering$ online-ordering.php
+#RewriteRule ^professional-training$ professional-training.php
+#RewriteRule ^logo-creation$ logo_creation.php
+
+
+#RewriteRule ^mobile-app-portfolio$ mobile-app-portfolio.php
+#RewriteRule ^logo_creation$ logo_creation.php
+#RewriteRule ^page$ page.php
+#RewriteRule ^corevalue$ corevalue.php
+
+#RewriteRule portfolio-(.*) portfolio.php?action=$1
+#RewriteRule (.*)-portfolio portfolio.php?action=$1
+
+#RewriteRule ^404$ 404.php
+
+#our services
+
+#RewriteRule our-services-(.*) our_services.php?name=$1
+#RewriteRule our-services_(.*) our_services.php?sub=$1
+#RewriteRule page-(.*) page.php?name=$1
+#RewriteRule about-us-(.*) about_us.php?name=$1
+
+#RewriteRule web-portfolio-(.*) web-portfolio.php?pageno=$1
+#RewriteRule mobile-app-portfolio-(.*) mobile-app-portfolio.php?pageno=$1
+
+#RewriteRule portfolio_action_(.*)_type_(.*)_ portfolio.php?action=$1&type=$2
+#RewriteRule portfolio_action_(.*)_type_(.*) portfolio.php?action=$1&type=$2
+#RewriteRule service-(.*) services.php?page=$1
+#RewriteRule view-(.*) menu_page.php?menu=$1

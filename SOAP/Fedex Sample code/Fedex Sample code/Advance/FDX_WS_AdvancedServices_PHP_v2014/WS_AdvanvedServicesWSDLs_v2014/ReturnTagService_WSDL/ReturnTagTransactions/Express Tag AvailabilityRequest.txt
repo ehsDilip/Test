@@ -1,0 +1,40 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://fedex.com/ws/returntag/v1">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <v1:ExpressTagAvailabilityRequest>
+         <v1:WebAuthenticationDetail>
+            <v1:UserCredential>
+               <v1:Key>Input Your Information</v1:Key>
+               <v1:Password>Input Your Information</v1:Password>
+            </v1:UserCredential>
+         </v1:WebAuthenticationDetail>
+         <v1:ClientDetail>
+            <v1:AccountNumber>Input Your Information</v1:AccountNumber>
+            <v1:MeterNumber>Input Your Information</v1:MeterNumber>
+            <v1:Localization>
+               <v1:LanguageCode>EN</v1:LanguageCode>
+               <v1:LocaleCode>EN</v1:LocaleCode>
+            </v1:Localization>
+         </v1:ClientDetail>
+         <v1:TransactionDetail>
+            <v1:CustomerTransactionId>v1_getExpressTagAvailability</v1:CustomerTransactionId>
+         </v1:TransactionDetail>
+         <v1:Version>
+            <v1:ServiceId>wsi</v1:ServiceId>
+            <v1:Major>1</v1:Major>
+            <v1:Intermediate>0</v1:Intermediate>
+            <v1:Minor>0</v1:Minor>
+         </v1:Version>
+         <v1:ReadyDateTime>2014-06-18T14:14:18-06:00</v1:ReadyDateTime>
+         <v1:OriginAddress>
+            <v1:StreetLines>Input Your Information</v1:StreetLines>
+            <v1:City>Colorado Springs</v1:City>
+            <v1:StateOrProvinceCode>CO</v1:StateOrProvinceCode>
+            <v1:PostalCode>80922</v1:PostalCode>
+            <v1:CountryCode>US</v1:CountryCode>
+         </v1:OriginAddress>
+         <v1:Service>PRIORITY_OVERNIGHT</v1:Service>
+         <v1:Packaging>YOUR_PACKAGING</v1:Packaging>
+      </v1:ExpressTagAvailabilityRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

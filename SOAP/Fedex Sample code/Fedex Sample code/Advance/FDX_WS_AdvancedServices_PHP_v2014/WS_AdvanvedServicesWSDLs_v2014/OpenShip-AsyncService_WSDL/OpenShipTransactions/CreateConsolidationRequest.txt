@@ -1,0 +1,231 @@
+"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:v7=""http://fedex.com/ws/openship/v7"">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+     <v7:CreateConsolidationRequest>
+           <v7:WebAuthenticationDetail>
+            <v7:UserCredential>
+               <v7:Key>Input Your Information</v7:Key>
+               <v7:Password>Input Your Information</v7:Password>
+            </v7:UserCredential>
+         </v7:WebAuthenticationDetail>
+         <v7:ClientDetail>
+            <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+            <v7:MeterNumber>Input Your Information</v7:MeterNumber>
+         </v7:ClientDetail>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>CreateConsolidationRequest_v7</v7:CustomerTransactionId>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>ship</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+         <v7:ConsolidationIndex>Input Your Information</v7:ConsolidationIndex>
+         <v7:RequestedConsolidation>
+            <v7:ConsolidationType>INTERNATIONAL_PRIORITY_DISTRIBUTION</v7:ConsolidationType>
+            <v7:ShipDate>2014-05-26</v7:ShipDate>
+            <v7:Shipper>
+               <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+               <v7:Tins>
+                  <v7:TinType>BUSINESS_NATIONAL</v7:TinType>
+                  <v7:Number>INDIVIDUAL</v7:Number>
+                  <v7:Usage></v7:Usage>
+               </v7:Tins>
+               <v7:Contact>
+                  <v7:PersonName>Input Your Information</v7:PersonName>
+                  <v7:CompanyName>Input Your Information</v7:CompanyName>
+                  <v7:PhoneNumber>Input Your Information</v7:PhoneNumber>
+                  <v7:EMailAddress>Input Your Information</v7:EMailAddress>
+               </v7:Contact>
+               <v7:Address>
+                  <v7:StreetLines>Input Your Information</v7:StreetLines>
+                  <v7:StreetLines>Input Your Information</v7:StreetLines>
+                  <v7:City>BOSTON</v7:City>
+                  <v7:StateOrProvinceCode>MA</v7:StateOrProvinceCode>
+                  <v7:PostalCode>021104101</v7:PostalCode>
+                  <v7:CountryCode>US</v7:CountryCode>
+                  <v7:Residential>0</v7:Residential>
+               </v7:Address>
+            </v7:Shipper>
+            <v7:Origin>
+               <v7:Contact>
+                  <v7:PersonName>Input Your Information</v7:PersonName>
+                  <v7:CompanyName>Input Your Information</v7:CompanyName>
+                  <v7:PhoneNumber>Input Your Information</v7:PhoneNumber>
+                  <v7:EMailAddress>Input Your Information</v7:EMailAddress>
+               </v7:Contact>
+               <v7:Address>
+                  <v7:StreetLines>Input Your Information</v7:StreetLines>
+                  <v7:StreetLines>Input Your Information</v7:StreetLines>
+                  <v7:City>BOSTON</v7:City>
+                  <v7:StateOrProvinceCode>MA</v7:StateOrProvinceCode>
+                  <v7:PostalCode>021104101</v7:PostalCode>
+                  <v7:CountryCode>US</v7:CountryCode>
+                  <v7:Residential>0</v7:Residential>
+               </v7:Address>
+            </v7:Origin>
+            <v7:SoldTo>
+               <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+               <v7:Contact>
+                  <v7:PersonName>Input Your Information</v7:PersonName>
+                  <v7:CompanyName>Input Your Information</v7:CompanyName>
+                  <v7:PhoneNumber>Input Your Information</v7:PhoneNumber>
+                  <v7:EMailAddress>Input Your Information</v7:EMailAddress>
+               </v7:Contact>
+               <v7:Address>
+                  <v7:StreetLines>Input Your Information</v7:StreetLines>
+                  <v7:City>RICHMOND</v7:City>
+                  <v7:StateOrProvinceCode>BC</v7:StateOrProvinceCode>
+                  <v7:PostalCode>v7C4v5</v7:PostalCode>
+                  <v7:CountryCode>CA</v7:CountryCode>
+                  <v7:CountryName>CANADA</v7:CountryName>
+                  <v7:Residential>0</v7:Residential>
+               </v7:Address>
+            </v7:SoldTo>
+            <v7:BookingNumber>Input Your Information</v7:BookingNumber>
+            <v7:ConsolidationDataSources>
+               <v7:Field>TOTAL_INSURANCE_CHARGES</v7:Field>
+               <v7:Source>CLIENT</v7:Source>
+            </v7:ConsolidationDataSources>
+            <v7:CustomerReferences>
+               <v7:CustomerReferenceType>CUSTOMER_REFERENCE</v7:CustomerReferenceType>
+               <v7:Value>USD</v7:Value>
+            </v7:CustomerReferences>
+            <v7:LabelSpecification>
+               <v7:LabelFormatType>COMMON2D</v7:LabelFormatType>
+               <v7:ImageType>PNG</v7:ImageType>
+               <v7:LabelStockType>PAPER_7X4.75</v7:LabelStockType>
+            </v7:LabelSpecification>
+            <v7:InternationalDistributionDetail>
+               <v7:DropoffType>REGULAR_PICKUP</v7:DropoffType>
+               <v7:TotalDimensions>
+                  <v7:Length>12</v7:Length>
+                  <v7:Width>12</v7:Width>
+                  <v7:Height>12</v7:Height>
+                  <v7:Units>IN</v7:Units>
+               </v7:TotalDimensions>
+               <v7:TotalInsuredValue>
+                  <v7:Currency>USD</v7:Currency>
+                  <v7:Amount>100.0</v7:Amount>
+               </v7:TotalInsuredValue>
+               <v7:UnitSystem>ENGLISH</v7:UnitSystem>
+               <v7:DeclarationCurrencies>
+                  <v7:Value>CUSTOMS_VALUE</v7:Value>
+                  <v7:Currency>USD</v7:Currency>
+               </v7:DeclarationCurrencies>
+               <v7:ClearanceFacilityLocationId>YMXI</v7:ClearanceFacilityLocationId>
+            </v7:InternationalDistributionDetail>
+            <v7:CustomsClearanceDetail>
+               <v7:CustomsOptions>
+                  <v7:Type>OTHER</v7:Type>
+                  <v7:Description>Consolidatedproduct</v7:Description>
+               </v7:CustomsOptions>
+               <v7:ImporterOfRecord>
+                  <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+                  <v7:Contact>
+                     <v7:PersonName>Input Your Information</v7:PersonName>
+                     <v7:CompanyName>Input Your Information</v7:CompanyName>
+                     <v7:PhoneNumber>Input Your Information</v7:PhoneNumber>
+                     <v7:EMailAddress>Input Your Information</v7:EMailAddress>
+                  </v7:Contact>
+                  <v7:Address>
+                     <v7:StreetLines>Input Your Information</v7:StreetLines>
+                     <v7:City>RICHMOND</v7:City>
+                     <v7:StateOrProvinceCode>BC</v7:StateOrProvinceCode>
+                     <v7:PostalCode>v7C4v5</v7:PostalCode>
+                     <v7:CountryCode>CA</v7:CountryCode>
+                     <v7:CountryName>CANADA</v7:CountryName>
+                     <v7:Residential>0</v7:Residential>
+                  </v7:Address>
+               </v7:ImporterOfRecord>
+               <v7:RecipientCustomsId>
+                  <v7:Type>COMPANY</v7:Type>
+                  <v7:Value>125</v7:Value>
+               </v7:RecipientCustomsId>
+               <v7:DutiesPayment>
+                  <v7:PaymentType>Input Your Information</v7:PaymentType>
+                  <v7:Payor>
+                     <v7:ResponsibleParty>
+                        <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+                        <v7:Contact>
+                           <v7:PersonName>Input Your Informationnadh</v7:PersonName>
+                           <v7:CompanyName>Input Your Information</v7:CompanyName>
+                           <v7:PhoneNumber>Input Your Information</v7:PhoneNumber>
+                           <v7:EMailAddress>Input Your Information</v7:EMailAddress>
+                        </v7:Contact>
+                        <v7:Address>
+                           <v7:StreetLines>Input Your Information</v7:StreetLines>
+                           <v7:StreetLines>Input Your Information</v7:StreetLines>
+                           <v7:City>BOSTON</v7:City>
+                           <v7:StateOrProvinceCode>MA</v7:StateOrProvinceCode>
+                           <v7:PostalCode>021104101</v7:PostalCode>
+                           <v7:CountryCode>US</v7:CountryCode>
+                           <v7:Residential>0</v7:Residential>
+                        </v7:Address>
+                     </v7:ResponsibleParty>
+                  </v7:Payor>
+               </v7:DutiesPayment>
+               <v7:DocumentContent>DERIVED</v7:DocumentContent>
+               <v7:CustomsValue>
+                  <v7:Currency>USD</v7:Currency>
+                  <v7:Amount>1000.0</v7:Amount>
+               </v7:CustomsValue>
+               <v7:InsuranceCharges>
+                  <v7:Currency>USD</v7:Currency>
+                  <v7:Amount>1000.0</v7:Amount>
+               </v7:InsuranceCharges>
+               <v7:CommercialInvoice>
+                  <v7:TermsOfSale>DDP</v7:TermsOfSale>
+               </v7:CommercialInvoice>
+               <v7:Commodities>
+                  <v7:Name>product</v7:Name>
+                  <v7:NumberOfPieces>1</v7:NumberOfPieces>
+                  <v7:Description>product</v7:Description>
+                  <v7:CountryOfManufacture>US</v7:CountryOfManufacture>
+                  <v7:Weight>
+                     <v7:Units>LB</v7:Units>
+                     <v7:Value>10</v7:Value>
+                  </v7:Weight>
+                  <v7:Quantity>1</v7:Quantity>
+                  <v7:QuantityUnits>X</v7:QuantityUnits>
+                  <v7:UnitPrice>
+                     <v7:Currency>USD</v7:Currency>
+                     <v7:Amount>1000.00</v7:Amount>
+                  </v7:UnitPrice>
+                  <v7:CustomsValue>
+                     <v7:Currency>USD</v7:Currency>
+                     <v7:Amount>1000.0</v7:Amount>
+                  </v7:CustomsValue>
+               </v7:Commodities>
+               <v7:ExportDetail>
+                  <v7:ExportComplianceStatement>30.37(f)</v7:ExportComplianceStatement>
+               </v7:ExportDetail>
+            </v7:CustomsClearanceDetail>
+            <v7:ShippingChargesPayment>
+               <v7:PaymentType>Input Your Information</v7:PaymentType>
+               <v7:Payor>
+                  <v7:ResponsibleParty>
+                     <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+                     <v7:Contact>
+                        <v7:PersonName>Input Your Information</v7:PersonName>
+                        <v7:CompanyName>Fedex</v7:CompanyName>
+                        <v7:PhoneNumber>Input Your Information</v7:PhoneNumber>
+                        <v7:EMailAddress>Input Your Information.ch@gmail.com</v7:EMailAddress>
+                     </v7:Contact>
+                     <v7:Address>
+                        <v7:StreetLines>Input Your Information</v7:StreetLines>
+                        <v7:StreetLines>Input Your Information</v7:StreetLines>
+                        <v7:City>BOSTON</v7:City>
+                        <v7:StateOrProvinceCode>MA</v7:StateOrProvinceCode>
+                        <v7:PostalCode>021104101</v7:PostalCode>
+                        <v7:CountryCode>US</v7:CountryCode>
+                        <v7:Residential>0</v7:Residential>
+                     </v7:Address>
+                  </v7:ResponsibleParty>
+               </v7:Payor>
+            </v7:ShippingChargesPayment>
+         </v7:RequestedConsolidation>
+      </v7:CreateConsolidationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>"

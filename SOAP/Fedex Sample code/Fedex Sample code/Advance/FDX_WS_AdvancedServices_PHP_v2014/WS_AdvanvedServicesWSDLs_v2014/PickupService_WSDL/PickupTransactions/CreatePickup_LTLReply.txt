@@ -1,0 +1,86 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+   <soapenv:Body>
+      <v9:CreatePickupReply xmlns:v9="http://fedex.com/ws/pickup/v9">
+         <v9:HighestSeverity xmlns:java="java:com.fedex.nxgen.disp.v12.ientities" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SUCCESS</v9:HighestSeverity>
+         <v9:Notifications xmlns:java="java:com.fedex.nxgen.disp.v12.ientities" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <v9:Severity>SUCCESS</v9:Severity>
+            <v9:Source>disp</v9:Source>
+            <v9:Code>0000</v9:Code>
+            <v9:Message>Success</v9:Message>
+            <v9:LocalizedMessage>Success</v9:LocalizedMessage>
+         </v9:Notifications>
+         <v9:TransactionDetail xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <v9:CustomerTransactionId>v9 CreatePickup Freight</v9:CustomerTransactionId>
+         </v9:TransactionDetail>
+         <v9:Version xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <v9:ServiceId>disp</v9:ServiceId>
+            <v9:Major>9</v9:Major>
+            <v9:Intermediate>0</v9:Intermediate>
+            <v9:Minor>0</v9:Minor>
+         </v9:Version>
+         <v9:PickupConfirmationNumber xmlns:java="java:com.fedex.nxgen.disp.v12.ientities" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">20140618HRO002620</v9:PickupConfirmationNumber>
+         <v9:CompletedFreightPickupDetail xmlns:java="java:com.fedex.nxgen.disp.v12.ientities" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <v9:Origin>
+               <v9:AdditionalDays>0</v9:AdditionalDays>
+               <v9:LocalDistance>
+                  <v9:Value>2.0</v9:Value>
+                  <v9:Units>MI</v9:Units>
+               </v9:LocalDistance>
+               <v9:LocalDuration>PT3M</v9:LocalDuration>
+               <v9:Location>HRO</v9:Location>
+               <v9:ContactAndAddress>
+                  <v9:Contact>
+                     <v9:PersonName>FRED GARRY</v9:PersonName>
+                     <v9:CompanyName>HARRISON</v9:CompanyName>
+                     <v9:PhoneNumber>8008744723</v9:PhoneNumber>
+                     <v9:FaxNumber>8707417325</v9:FaxNumber>
+                  </v9:Contact>
+                  <v9:Address>
+                     <v9:StreetLines>2200 FORWARD DR</v9:StreetLines>
+                     <v9:City>HARRISON</v9:City>
+                     <v9:StateOrProvinceCode>AR</v9:StateOrProvinceCode>
+                     <v9:PostalCode>72601-2004</v9:PostalCode>
+                     <v9:CountryCode>US</v9:CountryCode>
+                     <v9:Residential>false</v9:Residential>
+                  </v9:Address>
+               </v9:ContactAndAddress>
+            </v9:Origin>
+            <v9:LineItems>
+               <v9:SequenceNumber>1</v9:SequenceNumber>
+               <v9:Destination>
+                  <v9:InterlineCarrierCode>FEDEX_FREIGHT_ECONOMY</v9:InterlineCarrierCode>
+                  <v9:InterlineCarrierName>FedEx Freight</v9:InterlineCarrierName>
+                  <v9:AdditionalDays>0</v9:AdditionalDays>
+                  <v9:LocalService>FEDEX_FREIGHT_ECONOMY</v9:LocalService>
+                  <v9:LocalDistance>
+                     <v9:Value>2.0</v9:Value>
+                     <v9:Units>MI</v9:Units>
+                  </v9:LocalDistance>
+                  <v9:LocalDuration>PT3M</v9:LocalDuration>
+                  <v9:LocalServiceScheduling>STANDARD</v9:LocalServiceScheduling>
+                  <v9:Location>HRO</v9:Location>
+                  <v9:ContactAndAddress>
+                     <v9:Address>
+                        <v9:StreetLines>2200 FORWARD DRIVE</v9:StreetLines>
+                        <v9:City>HARRISON</v9:City>
+                        <v9:StateOrProvinceCode>AR</v9:StateOrProvinceCode>
+                        <v9:PostalCode>72601</v9:PostalCode>
+                        <v9:CountryCode>US</v9:CountryCode>
+                        <v9:Residential>false</v9:Residential>
+                     </v9:Address>
+                  </v9:ContactAndAddress>
+               </v9:Destination>
+               <v9:TotalTravelTime>P2D</v9:TotalTravelTime>
+               <v9:EtaDeliveryTimestamp>2014-06-20T00:00:00</v9:EtaDeliveryTimestamp>
+            </v9:LineItems>
+            <v9:TotalPieces>4</v9:TotalPieces>
+            <v9:TotalWeight>
+               <v9:Units>LB</v9:Units>
+               <v9:Value>145.0</v9:Value>
+            </v9:TotalWeight>
+            <v9:TotalHandlingUnits>2</v9:TotalHandlingUnits>
+         </v9:CompletedFreightPickupDetail>
+      </v9:CreatePickupReply>
+   </soapenv:Body>
+</soapenv:Envelope>

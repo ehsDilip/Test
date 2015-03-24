@@ -1,0 +1,82 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v9="http://fedex.com/ws/pickup/v9">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v9:CancelPickupRequest>
+         <v9:WebAuthenticationDetail>
+          <v9:UserCredential>
+               <v9:Key>Input Your Information</v9:Key>
+               <v9:Password>Input Your Information</v9:Password>
+            </v9:UserCredential>
+         </v9:WebAuthenticationDetail>
+         <v9:ClientDetail>
+            <v9:AccountNumber>Input Your Information</v9:AccountNumber>
+            <v9:MeterNumber>Input Your Information</v9:MeterNumber>
+            <v9:Localization>
+               <v9:LanguageCode>EN</v9:LanguageCode>
+               <v9:LocaleCode>US</v9:LocaleCode>
+            </v9:Localization>
+         </v9:ClientDetail>
+         <v9:TransactionDetail>
+            <v9:CustomerTransactionId>CancelPickupRequest_v9</v9:CustomerTransactionId>
+            <v9:Localization>
+               <v9:LanguageCode>EN</v9:LanguageCode>
+               <v9:LocaleCode>US</v9:LocaleCode>
+            </v9:Localization>
+         </v9:TransactionDetail>
+         <v9:Version>
+            <v9:ServiceId>disp</v9:ServiceId>
+            <v9:Major>9</v9:Major>
+            <v9:Intermediate>0</v9:Intermediate>
+            <v9:Minor>0</v9:Minor>
+         </v9:Version>
+         <v9:CarrierCode>FDXE</v9:CarrierCode>
+         <v9:PickupConfirmationNumber>Input Your Information</v9:PickupConfirmationNumber>
+         <v9:ScheduledDate>Input Your Information</v9:ScheduledDate>
+         <v9:Location>NQAA</v9:Location>
+         <v9:Remarks>Preet</v9:Remarks>
+         <v9:ShippingChargesPayment>
+            <v9:PaymentType>CASH</v9:PaymentType>
+            <v9:Payor>
+               <v9:ResponsibleParty>
+                 <v9:AccountNumber>Input Your Information</v9:AccountNumber>
+                  <v9:Tins>
+                     <v9:TinType>BUSINESS_NATIONAL</v9:TinType>
+                     <v9:Number>123456989012345</v9:Number>
+                     <v9:Usage>string</v9:Usage>
+                  </v9:Tins>
+                  <v9:Contact>
+                     <v9:ContactId>Input Your Information</v9:ContactId>
+                     <v9:PersonName>Input Your Information</v9:PersonName>
+                     <v9:Title>Input Your Information</v9:Title>
+                     <v9:CompanyName>Input Your Information$</v9:CompanyName>
+                     <v9:PhoneNumber>Input Your Information</v9:PhoneNumber>
+                     <v9:PhoneExtension>Input Your Information</v9:PhoneExtension>
+                     <v9:PagerNumber>Input Your Information</v9:PagerNumber>
+                     <v9:FaxNumber>Input Your Information</v9:FaxNumber>
+                     <v9:EMailAddress>Input Your Information</v9:EMailAddress>
+                  </v9:Contact>
+                  <v9:Address>
+                     <v9:StreetLines>Input Your Information</v9:StreetLines>
+                     <v9:StreetLines>Input Your Information</v9:StreetLines>
+                     <v9:StreetLines>Input Your Information</v9:StreetLines>
+                     <v9:City>Input Your Information</v9:City>
+                     <v9:StateOrProvinceCode>Input Your Information</v9:StateOrProvinceCode>
+                     <v9:PostalCode>Input Your Information</v9:PostalCode>
+                     <v9:CountryCode>Input Your Information</v9:CountryCode>
+                  </v9:Address>
+               </v9:ResponsibleParty>
+               <v9:AssociatedAccounts>
+                  <v9:Type>FEDEX_EXPRESS</v9:Type>
+                  <v9:AccountNumber>Input Your Information</v9:AccountNumber>
+               </v9:AssociatedAccounts>
+            </v9:Payor>
+            <v9:Amount>
+               <v9:Currency>USD</v9:Currency>
+               <v9:Amount>220000</v9:Amount>
+            </v9:Amount>
+         </v9:ShippingChargesPayment>
+         <v9:Reason>TXT</v9:Reason>
+         <v9:ContactName>Input Your Information</v9:ContactName>
+      </v9:CancelPickupRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

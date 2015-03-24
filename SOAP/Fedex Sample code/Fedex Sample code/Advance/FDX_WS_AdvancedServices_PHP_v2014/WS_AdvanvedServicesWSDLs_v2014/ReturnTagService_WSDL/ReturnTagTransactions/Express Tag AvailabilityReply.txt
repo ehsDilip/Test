@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><soapenv:Body><v1:ExpressTagAvailabilityReply xmlns:v1="http://fedex.com/ws/returntag/v1"><v1:HighestSeverity>SUCCESS</v1:HighestSeverity><v1:Notifications><v1:Severity>SUCCESS</v1:Severity><v1:Source>disp</v1:Source><v1:Code>0000</v1:Code><v1:Message>Success</v1:Message><v1:LocalizedMessage>Success</v1:LocalizedMessage></v1:Notifications><v1:TransactionDetail xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+            <v1:CustomerTransactionId>v1_getExpressTagAvailability</v1:CustomerTransactionId>
+         </v1:TransactionDetail><v1:Version xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+            <v1:ServiceId>wsi</v1:ServiceId>
+            <v1:Major>1</v1:Major>
+            <v1:Intermediate>0</v1:Intermediate>
+            <v1:Minor>0</v1:Minor>
+         </v1:Version><v1:AccessTime>01:00:00</v1:AccessTime><v1:ReadyTime>16:00:00</v1:ReadyTime><v1:Availability>SAME_DAY_AND_NEXT_DAY_AVAILABLE</v1:Availability></v1:ExpressTagAvailabilityReply></soapenv:Body></soapenv:Envelope>

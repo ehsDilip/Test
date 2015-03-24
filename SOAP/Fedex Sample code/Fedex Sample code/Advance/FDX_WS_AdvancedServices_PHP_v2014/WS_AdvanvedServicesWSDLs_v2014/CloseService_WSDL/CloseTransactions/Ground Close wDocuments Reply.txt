@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><v3:GroundCloseDocumentsReply xmlns:v3="http://fedex.com/ws/close/v3"><v3:HighestSeverity>WARNING</v3:HighestSeverity><v3:Notifications><v3:Severity>WARNING</v3:Severity><v3:Source>clos</v3:Source><v3:Code>9804</v3:Code><v3:Message>No Shipments to Close</v3:Message><v3:LocalizedMessage>No Shipments to Close</v3:LocalizedMessage></v3:Notifications><v3:TransactionDetail xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+            <v3:CustomerTransactionId>Close</v3:CustomerTransactionId>
+            <v3:Localization>
+               <v3:LanguageCode>EN</v3:LanguageCode>
+               <v3:LocaleCode>EN</v3:LocaleCode>
+            </v3:Localization>
+         </v3:TransactionDetail><v3:Version xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+            <v3:ServiceId>clos</v3:ServiceId>
+            <v3:Major>3</v3:Major>
+            <v3:Intermediate>1</v3:Intermediate>
+            <v3:Minor>0</v3:Minor>
+         </v3:Version></v3:GroundCloseDocumentsReply></env:Body></soapenv:Envelope>

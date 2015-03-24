@@ -1,0 +1,36 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v7="http://fedex.com/ws/uploaddocument/v7">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v7:UploadDocumentsRequest>
+         <v7:WebAuthenticationDetail>
+            <v7:UserCredential>
+               <v7:Key>Input Your Information</v7:Key>
+             <v7:Password>Input Your Information</v7:Password>
+            </v7:UserCredential>
+         </v7:WebAuthenticationDetail>
+         <v7:ClientDetail>
+            <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+            <v7:MeterNumber>Input Your Information</v7:MeterNumber>
+         </v7:ClientDetail>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>UploadDocumentsRequest_v7</v7:CustomerTransactionId>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>cdus</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+         <v7:OriginCountryCode>US</v7:OriginCountryCode>
+         <v7:DestinationCountryCode>CA</v7:DestinationCountryCode>
+         <v7:Documents>
+            <v7:LineNumber>2</v7:LineNumber>
+            <v7:CustomerReference>By-Vikas</v7:CustomerReference>
+            <v7:DocumentProducer>CUSTOMER</v7:DocumentProducer>
+            <v7:DocumentType>CERTIFICATE_OF_ORIGIN</v7:DocumentType>
+            <v7:FileName>vikas_cus_coo.txt</v7:FileName>
+            <v7:DocumentContent>R0lGODlhcgGSALMAAAQCAEMmCZtuMFQxDS8b</v7:DocumentContent>
+         </v7:Documents>
+      </v7:UploadDocumentsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

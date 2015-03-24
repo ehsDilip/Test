@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><v7:UploadDocumentsReply xmlns:v7="http://fedex.com/ws/uploaddocument/v7"><v7:HighestSeverity>SUCCESS</v7:HighestSeverity><v7:Notifications><v7:Severity>SUCCESS</v7:Severity><v7:Source>cdus</v7:Source><v7:Code>0</v7:Code><v7:Message>EDM returned document ID.</v7:Message></v7:Notifications><v7:TransactionDetail>
+            <v7:CustomerTransactionId>UploadDocumentsRequest_v7</v7:CustomerTransactionId>
+         </v7:TransactionDetail><v7:Version>
+            <v7:ServiceId>cdus</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version><v7:DocumentStatuses><v7:LineNumber>2</v7:LineNumber><v7:CustomerReference>By-Vikas</v7:CustomerReference><v7:DocumentProducer>CUSTOMER</v7:DocumentProducer><v7:DocumentType>CERTIFICATE_OF_ORIGIN</v7:DocumentType><v7:FileName>vikas_cus_coo.txt</v7:FileName><v7:Status>SUCCESS</v7:Status><v7:DocumentId>090493e1806aabc6</v7:DocumentId></v7:DocumentStatuses></v7:UploadDocumentsReply></env:Body></soapenv:Envelope>

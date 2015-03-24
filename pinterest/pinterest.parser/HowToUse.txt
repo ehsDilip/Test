@@ -1,0 +1,21 @@
+Thanks for trying my code.
+
+Instructions.
+1. Place the files somewhere on your server.
+2. Include the files in your code
+3. Call the functions you need & parse the returned data to display
+
+Here's some sample code for including & loading the data.
+I'll assume if you've gotten this far, you can parse arrays. =)
+<?php
+	include_once('wp-content/themes/exampletheme/assets/classes/Pinterest.class.php');
+	$pinterest = new Pinterest();
+	$pinterest->scrapeUser("username");
+	$pinterestCovers = $pinterest->getCovers();
+	$pinterestThumbs = $pinterest->getThumbs();
+	$pinterestLinks = $pinterest->getLinks();
+?>
+
+*NOTE: $pinterest->getThumbs() returns an array of arrays. Each array corresponds to a cover photo.
+
+Questions? Just a leave a comment & I'll get back to you.

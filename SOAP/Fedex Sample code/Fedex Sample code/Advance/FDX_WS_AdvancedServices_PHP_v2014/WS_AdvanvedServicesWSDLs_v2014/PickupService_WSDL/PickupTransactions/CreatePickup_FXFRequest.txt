@@ -1,0 +1,93 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://fedex.com/ws/pickup/v9">
+   <SOAP-ENV:Body>
+      <CreatePickupRequest>
+         <WebAuthenticationDetail>
+           <UserCredential>
+               <Key>Input Your Information</Key>
+               <Password>Input Your Information</Password>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input Your Information</AccountNumber>
+            <MeterNumber>Input Your Information</MeterNumber>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>v9 FDXE CreatePickup Freight</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>disp</ServiceId>
+            <Major>9</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <OriginDetail>
+            <UseAccountAddress>Input Your Information</UseAccountAddress>
+            <PickupLocation>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>Input Your Information</City>
+                  <StateOrProvinceCode>Input Your Information</StateOrProvinceCode>
+                  <PostalCode>Input Your Information</PostalCode>
+                  <CountryCode>Input Your Information</CountryCode>
+               </Address>
+            </PickupLocation>
+            <PackageLocation>FRONT</PackageLocation>
+            <BuildingPart>APARTMENT</BuildingPart>
+            <BuildingPartDescription>BuildingPartDescription</BuildingPartDescription>
+            <ReadyTimestamp>2014-05-23T09:30:47-05:00</ReadyTimestamp>
+            <CompanyCloseTime>17:00:00</CompanyCloseTime>
+         </OriginDetail>
+         <FreightPickupDetail>
+            <ApprovedBy>
+               <PersonName>Input Your Information</PersonName>
+               <CompanyName>Input Your Information</CompanyName>
+               <PhoneNumber>Input Your Information</PhoneNumber>
+               <EMailAddress>Input Your Information</EMailAddress>
+            </ApprovedBy>
+            <Payment>SENDER</Payment>
+            <Role>SHIPPER</Role>
+            <SubmittedBy>
+               <PersonName>Input Your Information</PersonName>
+               <CompanyName>Input Your Information</CompanyName>
+               <PhoneNumber>Input Your Information</PhoneNumber>
+               <EMailAddress>Input Your Information</EMailAddress>
+            </SubmittedBy>
+            <LineItems>
+               <Service>FEDEX_FIRST_FREIGHT</Service>
+               <SequenceNumber>1</SequenceNumber>
+               <Destination>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>Input Your Information</City>
+                  <StateOrProvinceCode>Input Your Information</StateOrProvinceCode>
+                  <PostalCode>Input Your Information</PostalCode>
+                  <CountryCode>Input Your Information</CountryCode>
+               </Destination>
+               <Packaging>BUNDLE</Packaging>
+               <Pieces>4</Pieces>
+               <Weight>
+                  <Units>LB</Units>
+                  <Value>145.0</Value>
+               </Weight>
+               <TotalHandlingUnits>2</TotalHandlingUnits>
+               <JustOneMore>1</JustOneMore>
+               <Description>String</Description>
+            </LineItems>
+         </FreightPickupDetail>
+         <PackageCount>4</PackageCount>
+         <TotalWeight>
+            <Units>LB</Units>
+            <Value>145.0</Value>
+         </TotalWeight>
+         <CarrierCode>FDXE</CarrierCode>
+         <OversizePackageCount>1</OversizePackageCount>
+         <Remarks>**This is a TEST** Do not send a driver!!</Remarks>
+         <CommodityDescription>**This is a TEST** Do not send a driver!!</CommodityDescription>
+      </CreatePickupRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

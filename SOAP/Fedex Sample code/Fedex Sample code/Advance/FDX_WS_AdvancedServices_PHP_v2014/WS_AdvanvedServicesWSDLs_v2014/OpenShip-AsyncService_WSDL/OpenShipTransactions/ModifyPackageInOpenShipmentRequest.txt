@@ -1,0 +1,70 @@
+"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:v7=""http://fedex.com/ws/openship/v7"">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v7:ModifyPackageInOpenShipmentRequest>
+         <v7:WebAuthenticationDetail>
+            <v7:UserCredential>
+               <v7:Key>Input Your Information</v7:Key>
+               <v7:Password>Input Your Information</v7:Password>
+            </v7:UserCredential>
+         </v7:WebAuthenticationDetail>
+         <v7:ClientDetail>
+            <v7:AccountNumber>Input Your Information</v7:AccountNumber>
+            <v7:MeterNumber>Input Your Information</v7:MeterNumber>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:ClientDetail>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>ModifyPackageInOpenShipmentRequest_v7</v7:CustomerTransactionId>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>us</v7:LocaleCode>
+            </v7:Localization>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>ship</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+         <v7:Index>Input Your Information</v7:Index>
+         <v7:TrackingId>
+            <v7:TrackingNumber>Input Your Information</v7:TrackingNumber>
+         </v7:TrackingId>
+         <v7:RequestedPackageLineItem>
+            <v7:SequenceNumber>1</v7:SequenceNumber>
+            <v7:VariableHandlingChargeDetail>
+               <v7:FixedValue>
+                  <v7:Currency>USD</v7:Currency>
+                  <v7:Amount>121</v7:Amount>
+               </v7:FixedValue>
+               <v7:PercentValue>1</v7:PercentValue>
+               <v7:RateElementBasis>BASE_CHARGE</v7:RateElementBasis>
+               <v7:RateTypeBasis>ACCOUNT</v7:RateTypeBasis>
+            </v7:VariableHandlingChargeDetail>
+            <v7:InsuredValue>
+               <v7:Currency>USD</v7:Currency>
+               <v7:Amount>100.00</v7:Amount>
+            </v7:InsuredValue>
+            <v7:Weight>
+               <v7:Units>LB</v7:Units>
+               <v7:Value>20.00</v7:Value>
+            </v7:Weight>
+            <v7:Dimensions>
+               <v7:Length>108</v7:Length>
+               <v7:Width>5</v7:Width>
+               <v7:Height>5</v7:Height>
+               <v7:Units>IN</v7:Units>
+            </v7:Dimensions>
+            <v7:ContentRecords>
+               <v7:PartNumber>10</v7:PartNumber>
+               <v7:ItemNumber>1</v7:ItemNumber>
+               <v7:ReceivedQuantity>10</v7:ReceivedQuantity>
+               <v7:Description>111</v7:Description>
+            </v7:ContentRecords>
+         </v7:RequestedPackageLineItem>
+      </v7:ModifyPackageInOpenShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>"

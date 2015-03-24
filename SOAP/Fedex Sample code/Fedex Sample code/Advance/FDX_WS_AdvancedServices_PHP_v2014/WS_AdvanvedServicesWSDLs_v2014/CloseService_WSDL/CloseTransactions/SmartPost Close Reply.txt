@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><v3:SmartPostCloseReply xmlns:v3="http://fedex.com/ws/close/v3"><v3:HighestSeverity>SUCCESS</v3:HighestSeverity><v3:Notifications><v3:Severity>SUCCESS</v3:Severity><v3:Source>clos</v3:Source><v3:Code>0000</v3:Code><v3:Message>Success</v3:Message><v3:LocalizedMessage>Success</v3:LocalizedMessage></v3:Notifications><v3:TransactionDetail xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+            <v3:CustomerTransactionId>SmartPostCloseRequest_v3</v3:CustomerTransactionId>
+         </v3:TransactionDetail><v3:Version xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+            <v3:ServiceId>clos</v3:ServiceId>
+            <v3:Major>3</v3:Major>
+            <v3:Intermediate>1</v3:Intermediate>
+            <v3:Minor>0</v3:Minor>
+         </v3:Version></v3:SmartPostCloseReply></env:Body></soapenv:Envelope>

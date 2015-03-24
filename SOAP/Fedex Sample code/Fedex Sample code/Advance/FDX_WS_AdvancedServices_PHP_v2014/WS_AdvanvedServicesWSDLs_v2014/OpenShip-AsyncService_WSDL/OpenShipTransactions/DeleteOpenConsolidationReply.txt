@@ -1,0 +1,28 @@
+"<soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"">
+   <env:Header xmlns:env=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""/>
+   <soapenv:Body>
+      <v7:DeleteOpenConsolidationReply xmlns:v7=""http://fedex.com/ws/openship/v7"">
+         <v7:HighestSeverity>SUCCESS</v7:HighestSeverity>
+         <v7:Notifications>
+            <v7:Severity>SUCCESS</v7:Severity>
+            <v7:Source>ship</v7:Source>
+            <v7:Code>0000</v7:Code>
+            <v7:Message>Success</v7:Message>
+            <v7:LocalizedMessage>Success</v7:LocalizedMessage>
+         </v7:Notifications>
+         <v7:TransactionDetail>
+            <v7:CustomerTransactionId>DeleteOpenConsolidationShipment_v7</v7:CustomerTransactionId>
+            <v7:Localization>
+               <v7:LanguageCode>EN</v7:LanguageCode>
+               <v7:LocaleCode>en</v7:LocaleCode>
+            </v7:Localization>
+         </v7:TransactionDetail>
+         <v7:Version>
+            <v7:ServiceId>ship</v7:ServiceId>
+            <v7:Major>7</v7:Major>
+            <v7:Intermediate>0</v7:Intermediate>
+            <v7:Minor>0</v7:Minor>
+         </v7:Version>
+      </v7:DeleteOpenConsolidationReply>
+   </soapenv:Body>
+</soapenv:Envelope>"

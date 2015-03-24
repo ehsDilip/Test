@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html dir="ltr" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+
+
+    <!-- Mirrored from www.nicolaegabriel.info/live/admin-pure/form-elements.html by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 04 Oct 2014 07:55:01 GMT -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+        <title>HTML - Admin Pure</title>
+
+        <!-- Styles -->
+        <link rel='stylesheet' href='assets/style.css' type='text/css' media='all' />
+
+        <!--[if IE]>
+        
+                <link rel='stylesheet' href='_layout/IE.css' type='text/css' media='all' />		
+                
+        <![endif]-->
+
+        <!-- Fonts -->
+        <link href='../../../fonts.googleapis.com/css41d0.css?family=Droid+Sans:regular,bold|PT+Sans+Narrow:regular,bold|Droid+Serif:i&amp;v1' rel='stylesheet' type='text/css' />
+
+        <script type='text/javascript' src='../../../ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min97e1.js?ver=1.7'></script>
+        <!-- WYSISYG Editor -->
+        <script type='text/javascript' src='assets/scripts/nicEdit/nicEdit.js'></script>
+
+        <!-- Forms Elemets --> 
+        <script type='text/javascript' src='assets/scripts/jquery.uniform/jquery.uniform.min.js'></script>
+        <link rel='stylesheet' href='assets/scripts/jquery.uniform/uniform.default.css' type='text/css' media='screen' />
+
+        <!-- Scripts -->
+        <script type='text/javascript' src='assets/custom.js'></script>
+
+    </head>  
+
+    <body>
+
+        <div id="layout">
+            <div id="header-wrapper">
+                <div id="header">
+                    <div id="user-wrapper" class="fixed">
+                        <div class="color-scheme">
+                            <a href="#" class="button">Dropdown suggestion</a>
+                        </div>
+                        <div class="user">
+                            <img src="uploads/user-img.png" alt="" />
+                            <span>Welcome <a href="#">Owsian !</a></span>
+                            <span class="logout"><a href="#">Logout</a></span>
+                        </div>
+                    </div>
+
+                    <div id="launcher-wrapper" class="fixed">
+                        <div class="logo">
+                            <a href="index-2.html"><img src="uploads/back-logo.png" alt="" /></a>
+                        </div>
+
+                        <div class="launcher">
+                            <ul class="fixed">
+                                <li class="users"><a href="#">Users</a></li>
+                                <li class="mailbox">
+                                    <a href="#">Mailbox</a>
+                                    <span class="red-bullet"></span>
+                                </li>
+                                <li class="dialog"><a href="#">Dialog</a></li>
+                                <li class="settings last"><a href="#">Settings</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page fixed">
+                <div id="sidebar">
+                    <ul id="navigation">
+                        <li class="first">
+                            <div><a href="index-2.html">Dashboard</a><span class="icon-nav dashboard"></span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li>
+                            <div><a href="calendar.html">Calendar</a><span class="icon-nav calendar"></span><span>125</span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li>
+                            <div><a href="interface-elements.html">Interface Elements</a><span class="icon-nav interface-elements"></span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li class="active">
+                            <div><a href="form-elements.html">Form Elements</a><span class="icon-nav form-elements"></span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li>
+                            <div><a href="#">Settings</a><span class="icon-nav settings"></span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li>
+                            <div><a href="typography.html">Typography</a><span class="icon-nav typography"></span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li>
+                            <div><a href="tables.html">Tables</a><span class="icon-nav tables"></span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li>
+                            <div><a href="gallery.html">Gallery</a><span class="icon-nav gallery"></span></div>
+                            <div class="back"></div>
+                        </li>
+                        <li class="last">
+                            <div><a href="#">Users</a><span class="icon-nav users"></span></div>
+                            <div class="back"></div>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div id="content" class="form-elements">
+
+                    <ul class="breadcrumb">
+                        <li class="home"><a href="index-2.html" ></a></li>
+                        <li><a href="#" >Admin Pure</a></li>
+                        <li><a href="#" >Layouts</a></li>
+                        <li class="last"><a href="#" >Form Elements</a></li>
+                    </ul>
+
+
+                    <h1>Some Imputs</h1>
+                    <div class="hr"></div>
+                    <div class="fixed form-elements-inputs">
+                        <div class="col-240">
+                            <h4>Full size text input</h4>
+                            <h4>Normal size text input</h4>
+                            <h4>Small size text input</h4>
+                            <h4>Input with caption</h4>
+                            <h4>Active input</h4>
+                            <h4>Textarea</h4>
+                        </div>
+                        <div class="col-400">
+                            <input type="text" value="Le text input" />
+                            <input class="normal" type="text" value="Le text input" />
+                            <input class="small" type="text" value="Le text input" />
+                            <input class="normal" type="text" value="Le text input" />
+                            <span class="input-text">some description here</span>
+                            <input class="normal" autofocus="autofocus" type="text" value="Le text input" />
+                            <textarea cols="" rows="">Le text input</textarea>
+
+                            <a href="#" class="button-orange">Clear form</a>
+                            <a href="#" class="button-grey arrow">Send it!<span></span></a>
+                        </div>
+                    </div>
+
+                    <h1 class="m-top-30">Radio &amp; Checkboxes</h1>
+                    <div class="hr"></div>
+
+                    <div class="fixed m-bot-30 check">
+                        <div class="col-240">
+                            <h4>Checkbox group</h4>
+                        </div>
+                        <div class="col-400">
+                            <form method="post" action="#">
+                                <div class="inline">
+                                    <input type="checkbox" /> <label>Normal</label>
+                                </div>
+                                <div class="inline">
+                                    <input type="checkbox" checked="checked" /> <label>Checked</label>
+                                </div>
+                                <div class="inline">
+                                    <input type="checkbox" disabled="disabled" /> <label>Disabled</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="fixed m-bot-30">
+                        <div class="col-240">
+                            <h4>Radio buttons</h4>
+                        </div>
+                        <div class="col-400">
+                            <form method="post" action="#">
+                                <div class="inline">
+                                    <input type="radio" /> <label>Normal</label> 
+                                </div>
+                                <div class="inline">
+                                    <input type="radio" checked="checked" /> <label>Checked</label> 
+                                </div>
+                                <div class="inline">
+                                    <input type="radio" disabled="disabled" /> <label>Disabled</label> 
+                                </div>
+                            </form>	
+                        </div>
+                    </div>
+
+                    <div class="fixed m-bot-30">
+                        <div class="col-240">
+                            <h4>Progress bar</h4>
+                        </div>
+                        <div class="col-400">
+                            <div class="progress-bar">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h1 class="m-top-30">WYSIWYG Editor</h1>
+                    <div class="hr"></div>
+
+                    <div class="wysiwyg-editor-wrapper">
+                        <textarea id="sample-textarea" class="wysiwyg-editor m-top-30" rows="20" cols="25">
+								Le text input
+                        </textarea>
+                    </div>
+                    <a href="#" class="button-grey arrow nicedit">Done<span></span></a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    </body>
+
+
+    <!-- Mirrored from www.nicolaegabriel.info/live/admin-pure/form-elements.html by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 04 Oct 2014 07:55:04 GMT -->
+</html>
+
