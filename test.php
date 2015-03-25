@@ -1,7 +1,7 @@
 <?php
 
 
-$lines = file('http://www.if-not-true-then-false.com/2010/php-calculate-real-differences-between-two-dates-or-timestamps/');
+$lines = file('http://www.google.com/');
 foreach ($lines as $line_num => $line) { 
 	// loop thru each line and prepend line numbers
 	echo "Line #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br>\n";
